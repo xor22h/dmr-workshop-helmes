@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+CONTENT_PATH=$(pwd) docker compose -f oci://dockersamples/labspace-content-dev up -y

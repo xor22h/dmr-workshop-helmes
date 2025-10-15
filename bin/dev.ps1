@@ -1,0 +1,1 @@
+$Env:CONTENT_PATH = (Get-Location).Path; docker compose -f oci://dockersamples/labspace-content-dev up -y

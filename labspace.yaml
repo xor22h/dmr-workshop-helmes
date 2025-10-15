@@ -1,0 +1,22 @@
+title: Docker Model Runner
+description: Running AI models with familiar tooling
+sections:
+  - contentPath: ./.labspace/01-what-is-dmr.md
+    title: Introduction
+  - contentPath: ./.labspace/02-the-basics.md
+    title: Basics
+  - contentPath: ./.labspace/03-openai-api.md
+    title: OpenAI API
+  - contentPath: ./.labspace/04-handling-models.md
+    title: Working with models
+  - contentPath: ./.labspace/05-compose.md
+    title: Compose
+  - contentPath: ./.labspace/06-first-app.md
+    title: First App
+  - contentPath: ./.labspace/07-offload.md
+    title: Offload
+  - contentPath: ./.labspace/08-examples.md
+    title: Examples
+  - contentPath: ./.labspace/09-resources.md
+    title: Resources
+    

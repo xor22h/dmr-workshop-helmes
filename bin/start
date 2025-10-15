@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+CONTENT_REPO_URL=https://github.com/xor22h/dmr-workshop-helmes docker compose -f oci://dockersamples/labspace up -y

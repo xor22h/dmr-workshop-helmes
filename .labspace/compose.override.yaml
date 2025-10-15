@@ -1,0 +1,4 @@
+services:
+  configurator:
+    environment:
+      PROJECT_CLONE_URL: https://github.com/xor22h/dmr-workshop-helmes

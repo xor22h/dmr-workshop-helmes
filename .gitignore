@@ -1,0 +1,5 @@
+# don't commit the model themself
+**/*.gguf
+# MacOS 
+**/.DS_Store
+examples/

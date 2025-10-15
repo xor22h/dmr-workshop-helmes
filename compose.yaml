@@ -1,0 +1,16 @@
+services:
+  myapp:
+    image: ghcr.io/open-webui/open-webui:dev-slim
+    ports:
+      - "8080:8080"
+    environment:
+      - OPENAI_API_KEY=demo
+      - WEBUI_AUTH=False
+    models:
+      llm:
+        endpoint_var: OPENAI_API_BASE_URL
+
+models:
+  llm:
+    model: ai/gemma3
+    context_size: 10000

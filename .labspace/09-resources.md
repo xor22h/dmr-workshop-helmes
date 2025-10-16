@@ -19,7 +19,7 @@
 
 **Sample Projects:**
 
-- Hello GenAI: https://github.com/docker/hello-genai (or my fork: https://github.com/xor22h/hello-genai)
+- Hello GenAI: https://github.com/xor22h/hello-genai 
 
 **Model Sources:**
 

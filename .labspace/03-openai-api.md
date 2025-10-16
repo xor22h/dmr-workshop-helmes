@@ -53,7 +53,9 @@ curl -s http://localhost:12434/engines/v1/chat/completions \
     "model": "ai/smollm2",
     "messages": [
       {"role": "user", "content": "Baseball bat and a ball cost 1.10 eur. The ball is 1 eur more expensive than a baseball bat. How much the ball costs?"}
-    ]
+    ],
+    "max_tokens": 200,
+    "temperature": 0.7
   }' | jq
 ## P.s. Expect hallucinations, as smollm2 is quite small
 ```
